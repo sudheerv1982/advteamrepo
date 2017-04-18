@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd" >
+
+   <bean id = "idCollection" class = "com.spring.BeanCollection">
+   		<property name="addressList">
+   			<list>
+   				<value>Deepu</value>
+   				<value>Pradeep</value>
+   				<value>Suman</value>
+   				<value>Sai</value>
+   				<value>Sai</value>
+   				<value>Sai</value>
+   			</list>
+   		</property>
+   		<property name="addressSet">
+   			<set>
+   				<value>Deepu</value>
+   				<value>Pradeep</value>
+   				<value>Suman</value>
+   				<value>Sai</value>
+   				<value>Sai</value>
+   				<value>Sai</value>
+   			</set>
+   		</property>
+   		<property name="addressMap">
+   			<map>
+   				<entry key="1" value="Deepu"/>
+   				<entry key="2" value="Pradeep"/>
+   				<entry key="3" value="Suman"/>
+   				<entry key="4" value="Sai"/>
+   			</map>
+   		</property>
+   		<property name="addressProps">
+   			<props>
+   				<prop key="one">Deepu</prop>
+   				<prop key="two">Pradeep</prop>
+   				<prop key="three">Suman</prop>
+   				<prop key="four">Sai</prop>
+   			</props>
+   		</property>
+   </bean>
+   
+</beans>
